@@ -82,7 +82,7 @@ svg {
 .price-text {
   padding-right: 20px;
   font-family: 'Fraunces', serif;
-  font-weight: 700;
+  font-weight: 500;
   color: hsl(158, 36%, 37%);
 }
 
@@ -100,6 +100,10 @@ svg {
   border: 0;
 }
 
+.checkout-button:hover {
+  background-color: hsl(158, 36%, 20%);
+}
+
 .checkout-button > svg {
   vertical-align: text-bottom;
 }
@@ -107,6 +111,7 @@ svg {
 @media(max-width: 600px) {
   .product-card {
     max-width: 475px;
+    max-height: 750px;
     display: grid;
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr;
